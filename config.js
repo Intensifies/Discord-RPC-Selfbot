@@ -2,19 +2,19 @@
 
 module.exports = {
     // spotify/game/twitch
-    "mode": "", 
+    "mode": "spotify", 
     // dnd/online/idle
-    "status": "",
+    "status": "dnd",
 
     "game": {
-        "applicationID": "",
+        "applicationID": "1103326187348050024",
 
-        "name": "", // title
-        "details": "", // first row below title
-        "state": "", // row below first row
+        "name": "Lunar Client", // title
+        "details": "Minecraft", // first row below title
+        "state": "Version 1.20", // row below first row
 
-        "largeImageKey": "", // Large Image
-        "largeImageText": "", // the text when img surrounded (default is largeimage name in dev portal)
+        "largeImageKey": "lunar", // Large Image
+        "largeImageText": "Lunar Client", // the text when img surrounded (default is largeimage name in dev portal)
 
         "smallImageKey": "", // Small Image
         "smallImageText": "",
@@ -24,14 +24,14 @@ module.exports = {
         "endTimestamp": "" // time left since this timestamp (decrease --)
     },
     "twitch": {
-        "applicationID": "",
-        "url": "", // twitch channel link
+        "applicationID": "1103326187348050024",
+        "url": "https://www.youtube.com/watch?v=0qYpKjmdOX8", // twitch channel link
 
-        "details": "", // title
-        "state": "", // first row below title (playing ...)
+        "details": "Cypher Sings Cupid", // title
+        "state": "w/ Fifty Fifty", // first row below title (playing ...)
 
-        "largeImageKey": "", // in dev portal, upload img then name it with the name you want to appear with image is surrounded
-        "largeImageText": "", // use this to replace text when img surrounded it will also be second row below title, if you dont want the row dont use it and setup text via dev portal (img name)
+        "largeImageKey": "cypher", // in dev portal, upload img then name it with the name you want to appear with image is surrounded
+        "largeImageText": "This goes out to Cypher's dead wife", // use this to replace text when img surrounded it will also be second row below title, if you dont want the row dont use it and setup text via dev portal (img name)
         
         "smallImageKey": "",
         "smallImageText": "",
@@ -40,12 +40,12 @@ module.exports = {
         "endTimestamp": ""
     },
     "spotify": {
-        "name": "", // for exemple listening to {name} instead of listening to spotify
-        "details": "", // title
-        "state": "", // row below title
+        "name": "Spotify", // for exemple listening to {name} instead of listening to spotify
+        "details": "Life of a Developer", // title
+        "state": "Tense", // row below title
 
-        "largeImageKey": "", // https://github.com/mewzax/Discord-RPC-Selfbot/wiki/Spotify-API
-        "largeImageText": "", // will also be second row below title
+        "largeImageKey": "spotify:ab67706c0000bebb8d0ce13d55f634e290f744ba", // https://github.com/mewzax/Discord-RPC-Selfbot/wiki/Spotify-API
+        "largeImageText": "Developing Life", // will also be second row below title
         
         "smallImageKey": "",
         "smallImageText": "",
